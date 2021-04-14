@@ -2,7 +2,7 @@ In order to run the shell do the following...
 
 ```
 $ git clone https://github.com/MatthewPlemmons/shell-v2.git
-$ cd shell-v2
+$ cd test_shell
 $ make
 $ ./hsh
 ```
