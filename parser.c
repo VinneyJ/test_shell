@@ -45,7 +45,7 @@ int parser(cmd_t *cmd, char *cmdline)
 {
   /*cmd_t cmd;*/
   char *token;
-  int bg_proc, i;
+  int bg_proc __attribute__((unused)), i;
 
   if (cmdline == NULL)
     {

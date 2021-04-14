@@ -9,7 +9,7 @@
 int _cd(cmd_t *cmd)
 {
   char *pwd, *oldpwd;
-  size_t i;
+  size_t i __attribute__((unused));
 
   oldpwd = NULL;
   oldpwd = getcwd(oldpwd, PATH_MAX);

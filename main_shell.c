@@ -14,7 +14,7 @@ int main(int argc, char **argv)
   cmd_t cmd;
   char *line;
   size_t n;
-  int bg_proc;
+  int bg_proc __attribute__((unused));
   (void) argc, (void) argv;
 
   const char *prompt = "> ";
